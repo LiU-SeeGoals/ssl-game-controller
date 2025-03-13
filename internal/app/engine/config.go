@@ -1,13 +1,14 @@
 package engine
 
 import (
-	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
-	"github.com/pkg/errors"
-	"google.golang.org/protobuf/encoding/protojson"
 	"io"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/RoboCup-SSL/ssl-game-controller/internal/app/state"
+	"github.com/pkg/errors"
+	"google.golang.org/protobuf/encoding/protojson"
 )
 
 var defaultTeams = []string{
@@ -50,6 +51,7 @@ var defaultTeams = []string{
 	"RoboIME",
 	"RoboJackets",
 	"RoboTeam Twente",
+	"SeeGoals",
 	"SPbUnited",
 	"SRC",
 	"SSH",
